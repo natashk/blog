@@ -6,7 +6,7 @@
 name: Natalia Lokshina
 
 # Short bio or description (displayed in the header)
-description: Web Developer
+description: Web Developer, Data Science Enthusiast
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /blog/images/yojik.png
@@ -73,9 +73,9 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+plugins:
+  #- jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  #- jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
@@ -85,4 +85,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-slate
+theme: #jekyll-theme-slate
